@@ -12,7 +12,7 @@ def button_click(char):
     calc_operator += str(char)
     text_input.set(calc_operator)
 
-# Function to clear the whole entry of text display
+# Function to clear the whole entry of txt display
 def button_clear_all():
     global calc_operator
     calc_operator = ""
